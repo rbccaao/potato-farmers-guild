@@ -1,6 +1,6 @@
 import './App.css';
 import {DateTime} from 'luxon';
-import {HarvestCountdown} from '../components/HarvestCountdown';
+import {HarvestCountdown} from './components/HarvestCountdown';
 
 function App() {
   const currentDateTime = DateTime.now();
