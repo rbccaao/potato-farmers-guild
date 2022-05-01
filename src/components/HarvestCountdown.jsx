@@ -44,7 +44,7 @@ function TodayHarvest(){
 
 export function HarvestCountdown(props){
   const now = props.now;
-  const isHarvestDay = isHarvest(now.toISODate());
+  const isHarvestDay = isHarvest(now);
 
   return isHarvestDay ? <TodayHarvest /> : <NextHarvest now={now}/>
 }
