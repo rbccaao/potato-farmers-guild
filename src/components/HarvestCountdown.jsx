@@ -1,11 +1,19 @@
 import { nextHarvest } from '../util/nextHarvest';
 import { isHarvest } from '../util/isHarvest';
-
+import {DateTime} from 'luxon';
+import { useEffect, useState } from 'react';
 
 function NextHarvest(props){
-  const now = props.now;
+  const [now, setNow] = useState(props.now);
   const nextHarvestDate = nextHarvest(now);
   const daysDiff = nextHarvestDate.diff(now, ['days', 'hours', 'minutes', 'seconds']);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setNow(DateTime.now());
+    }, 1000);
+    return () => clearTimeout(timer);
+  });
 
   return (
     <div>
