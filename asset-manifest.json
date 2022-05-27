@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/potato-farmers-guild/static/css/main.073c9b0a.css",
+    "main.js": "/potato-farmers-guild/static/js/main.6fa53983.js",
+    "static/js/787.95451459.chunk.js": "/potato-farmers-guild/static/js/787.95451459.chunk.js",
+    "index.html": "/potato-farmers-guild/index.html",
+    "main.073c9b0a.css.map": "/potato-farmers-guild/static/css/main.073c9b0a.css.map",
+    "main.6fa53983.js.map": "/potato-farmers-guild/static/js/main.6fa53983.js.map",
+    "787.95451459.chunk.js.map": "/potato-farmers-guild/static/js/787.95451459.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.6fa53983.js"
+  ]
+}
